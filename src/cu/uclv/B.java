@@ -3,6 +3,7 @@ package cu.uclv;
 public class B
 {
 	private int x1;
+	private int x2;
 
 	public void setX1(int x1)
 	{
@@ -12,5 +13,15 @@ public class B
 	public int getX1()
 	{
 		return x1;
+	}
+
+	public void setX2(int x2)
+	{
+		this.x2=x2;
+	}
+
+	public int getX2()
+	{
+		return x2;
 	}
 }
